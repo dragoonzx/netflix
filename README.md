@@ -1,2 +1,3 @@
-# Netflix-Lading-Page-in-React
-Beautiful Netflix Landing Page made with React
+# LP in React
+
+Netflix in React

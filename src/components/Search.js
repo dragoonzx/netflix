@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const Search = (props) => {
-    return (
-        <form onSubmit={props.onSubmit} id="search" className="Search" >
-            <input type="search" placeholder="Search for a movie, series..." />
-        </form>
-    )
-};
+const Search = props => {
+  return (
+    <form onSubmit={props.onSubmit} id="search" className="Search">
+      <input type="search" placeholder="Search for a movie, series..." />
+    </form>
+  )
+}
 
-export default Search;
+export default Search
