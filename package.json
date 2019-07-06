@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TaiwoAkinnusoye/react-starter.git"
-  },
-  "author": "Taiwo Akinnusoye",
+  "author": "Maxim Shcherbak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TaiwoAkinnusoye/react-starter/issues"
@@ -33,6 +30,7 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-hot-loader": "^4.3.11"
+    "react-hot-loader": "^4.3.11",
+    "react-scripts": "^3.0.1"
   }
 }
